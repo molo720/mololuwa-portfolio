@@ -19,9 +19,7 @@ export function Contact() {
     setIsSubmitting(true);
     setSubmitStatus("idle");
 
-    // NOTE: Replace YOUR_FORM_ID with your actual Formspree form ID
-    // To get your form ID: Sign up at formspree.io, create a new form, and copy the form ID
-    const FORM_ID = "YOUR_FORM_ID";
+    const FORM_ID = "xaqknbqz";
 
     try {
       const formData = new FormData(e.currentTarget);
@@ -177,10 +175,7 @@ export function Contact() {
                   </motion.p>
                 )}
 
-                <p className="text-xs text-muted-foreground mt-4">
-                  Note: Configure your Formspree form ID in Contact.tsx to enable
-                  form submissions.
-                </p>
+
               </form>
             </div>
           </div>
